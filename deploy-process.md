@@ -6,11 +6,11 @@ The deployment process for dashboardable-reports is similar to the process for t
 
 The package for a dashboardable report has the same structure as a base report.
 
-{img001}
+![img001](images/img001.png)
 
 The primary difference is found in the report.properties file. Here we add two new properties:
 
-{img002}
+![img002](images/img002.png)
 
  1. ```Dashboardable="Y"```
 
