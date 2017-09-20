@@ -16,9 +16,9 @@ The primary difference is found in the report.properties file. Here we add two n
 
 	This property marks the report as dashboardable. It will be discoverable in *My Report Profiles* when you select the 'Dashboardable' radio button.
 
- 2. ```Server_URL="/public/Dashboards/myPackageName"```
+ 2. ```Server_URL="/public/Dashboards/myReportName"```
 
-	This is the path to the report on JasperReports Server. The deployment process automatically uploads the dashboard to the default directory, ```/public/Dashboards```. The server URL must point to a dashboard under this directory.
+	This is the path to the report on JasperReports Server. Take note that a file extension is not used. You can choose any **public** path you wish; if applicable, make sure that your drilldown path agrees with the path you've chosen.
 
 ## Deployment
 
