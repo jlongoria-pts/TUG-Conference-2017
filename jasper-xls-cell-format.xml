@@ -1,6 +1,0 @@
-<textField>
-  <reportElement ... >
-    <property name="net.sf.jasperreports.export.xls.pattern" value="#,##0.00"/>
-  </reportElement>
-  <textFieldExpression> ... </textFieldExpression>
-</textField>
